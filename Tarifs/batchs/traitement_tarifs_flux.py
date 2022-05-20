@@ -124,7 +124,7 @@ def fct_flux_tree_xml_1(flux, chemin_fichier_sortie, nom_tarif_profil, id_negoci
             newRow=[vin,millesime,formatB,prix,quantite,conditionnement,commentaires]
 
             # insertion des lignes dans la base
-            # pb.insertion_tarif(type_flux, nom_tarif_profil,vin,millesime,formatB,prix,quantite,conditionnement,commentaires, id_negociant)
+            pb.insertion_tarif(type_flux, nom_tarif_profil,vin,millesime,formatB,prix,quantite,conditionnement,commentaires, id_negociant)
 
             writer.writerow(newRow)
         return writer

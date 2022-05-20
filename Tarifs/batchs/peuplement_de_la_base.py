@@ -126,8 +126,8 @@ def indice_doublon(id_negociant, vin_id, format_bouteille_id, conditionnement_id
 
     retour_requete = req.envoie_requete_tuple_avec_retour(requete, tuple_valeurs)
 
-    # print("retour_requete")
-    # print(retour_requete)
+    print("retour_requete")
+    print(retour_requete)
 
     return retour_requete[0][0]
 
@@ -195,7 +195,7 @@ def insertion_tarif(type_flux, nom_tarif_profil, vin : str, millesime : str, for
     erreurs.append(erreurs_str)
 
     # vin_id
-    # print("vin : " + vin)
+    print("vin : " + vin)
     # vin_id : int = recup_val_tab_inv(0, 1, vin)
     vin_id : int = req.recuperation_un_id(nom.vin_str, "nom", vin)
     # print("Retour id vin : " + str(vin_id))
@@ -224,17 +224,13 @@ def insertion_tarif(type_flux, nom_tarif_profil, vin : str, millesime : str, for
     if( (vin_id == -1) or (millesime_id == -1) or (format_id == -1) or (conditionnement_id == -1) ):
         # print("vin : " + vin)
         # print("conditionnement : " + conditionnement)
-        # print("vin_id : " + str(vin_id) + "- millesime_id : " + str(millesime_id) + "- format_id : " + str(format_id) + "- conditionnement_id : " + str(conditionnement_id))
+        print("vin_id : " + str(vin_id) + "- millesime_id : " + str(millesime_id) + "- format_id : " + str(format_id) + "- conditionnement_id : " + str(conditionnement_id))
         return
         # raise Exception('spam', 'eggs')
 
     if(erreurs[0] != erreurs_str):
-        # print(erreurs)
+        print(erreurs)
         return
-
-    # print("partenaire_vendeur_id : " + str(partenaire_vendeur_id))
-    indice : int = indice_doublon(partenaire_vendeur_id, vin_id, format_id, conditionnement_id, conditionnement_id)
-    # print("Retour indice : " + str(indice))
 
     nom_table_tarif = "" 
 
@@ -248,22 +244,33 @@ def insertion_tarif(type_flux, nom_tarif_profil, vin : str, millesime : str, for
     elif(False):
         type_tarif_id : int  = 3
 
-    nom_table_tarif = "tarif"
+
+    # Changement on ne modifie plus quand on a un doublon mais de base on supprime tout et on réinsèreles données dans la table tarif et stock_offres
+    # nom_table_tarif = "tarif"
+
+    # # print("partenaire_vendeur_id : " + str(partenaire_vendeur_id))
+    # indice : int = indice_doublon(partenaire_vendeur_id, vin_id, format_id, conditionnement_id, millesime_id)
+    # print("Retour indice : " + str(indice))
 
     # print("quantite : " + str(quantite))
     # print("prix : " + str(prix))
     # print("indice : " + str(indice))
 
     # Trouvé ? : Modification sinon Insertion
-    if(indice != -1):
+    # if(indice != -1):
 
-        # print("modification vin -> modification tarif ou création tarif")
-        # print("Modifier !!")
+    #     # print("modification vin -> modification tarif ou création tarif")
+    #     print("Modifier !!")
 
-        modification_tarif(commentaires, indice, nom_table_tarif, type_tarif_id, quantite, prix)
-        return
+    #     modification_tarif(commentaires, indice, nom_table_tarif, type_tarif_id, quantite, prix)
+    #     return
 
-    # print("Créer !!")
+    # Réinitialisation des tables des offres avant création
+    tab_table : list = ["tarif", "stock_offres"]
+
+    req.reinitialisation_global(tab_table)
+
+    print("Créer !!")
 
     # print("creation vin")
 
@@ -283,7 +290,7 @@ def insertion_tarif(type_flux, nom_tarif_profil, vin : str, millesime : str, for
     # requete récupération de l'indice ( = indice max de la table)
     max_id_stock : int = recup_max("id", nom.stock_offres_str)
 
-    # print("max_id_stock : " + str(max_id_stock))
+    print("max_id_stock : " + str(max_id_stock))
 
     # requete insérer tarif
     tuple_valeurs : tuple = (max_id_stock, type_tarif_id, int(quantite), float(prix))

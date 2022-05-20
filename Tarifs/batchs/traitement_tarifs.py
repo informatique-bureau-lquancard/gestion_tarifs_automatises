@@ -1,5 +1,5 @@
 
-from tests_tarifs import traitement_tarifs_flux as trt
+import traitement_tarifs_flux as trt
 
 import initialisation_blq as init
 # from models import Profil
