@@ -49,6 +49,15 @@ def traitement_tarif():
     # Table profil : id, profil, chemin, flux, type_tarif_id, flux_id, partenaire_id
     for profil in tab_profils:
 
+        # print(profil[0])
+        # print(profil[1])
+        # print(profil[2])
+        # print(profil[3])
+        # print(profil[4])
+        # print(profil[5])
+        # print(profil[6])
+        # print(profil[7])
+
         # profil[5] = nom du flux
         if profil[5] == 'XML':
             
@@ -57,19 +66,20 @@ def traitement_tarif():
 
                 # profil[2] = nom du flux # profil[1] = nom dossier # profil[0] = profil # profil[7] = id negociant
                 script_tarif = trt.fct_flux_tree_xml_1(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0] + ".csv", profil[0], profil[7])
+                print()
 
-            elif( profil[0] == 'ANGWIN_HEBDO'):
-                print("No")
+            # elif( profil[0] == 'ANGWIN_HEBDO'):
+                # print("No")
                 # script_tarif = trt.fct_flux_tree_xml_2(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0] + ".csv", profil[0], profil[7])
 
-        elif(profil[5] == 'GOOGLE SHEETS'):
+        # elif(profil[5] == 'GOOGLE SHEETS'):
             
-            if( profil[0] == 'CUVFAU'):
+        #     if( profil[0] == 'CUVFAU'):
 
-                script_tarif = trt.fct_flux_google_sheets1(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0], profil[0], profil[7])
+        #         script_tarif = trt.fct_flux_google_sheets1(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0], profil[0], profil[7])
 
-            elif( profil[0] == 'MAISOB'):
+        #     elif( profil[0] == 'MAISOB'):
 
-                script_tarif = trt.fct_flux_google_sheets2(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0], profil[0], profil[7])
+        #         script_tarif = trt.fct_flux_google_sheets2(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0], profil[0], profil[7])
                 
 

@@ -18,226 +18,6 @@
 /bin/sh: 1: root: not found
 /bin/sh: 1: root: not found
 /bin/sh: 1: root: not found
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import peuplement_de_la_base as pb
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 20, in <module>
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 20, in <module>
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 20, in <module>
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 20, in <module>
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 20, in <module>
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 20, in <module>
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 20, in <module>
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 20, in <module>
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 20, in <module>
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 20, in <module>
-    tab_stock_offres : list = req.recuperation_tab( nom.stock_offres_str )
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 83, in recuperation_tab
-    tab_stock_offres : list = req.recuperation_tab( nom.stock_offres_str )
-    tab_stock_offres : list = req.recuperation_tab( nom.stock_offres_str )
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 83, in recuperation_tab
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 83, in recuperation_tab
-    table_apres_requete = envoie_requete_avec_retour(requete)
-    table_apres_requete = envoie_requete_avec_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 22, in envoie_requete_avec_retour
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 22, in envoie_requete_avec_retour
-    curseur.execute(requete)
-    curseur.execute(requete)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    tab_stock_offres : list = req.recuperation_tab( nom.stock_offres_str )
-    tab_stock_offres : list = req.recuperation_tab( nom.stock_offres_str )
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 83, in recuperation_tab
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 83, in recuperation_tab
-    table_apres_requete = envoie_requete_avec_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 22, in envoie_requete_avec_retour
-    table_apres_requete = envoie_requete_avec_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 22, in envoie_requete_avec_retour
-    curseur.execute(requete)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    curseur.execute(requete)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    tab_stock_offres : list = req.recuperation_tab( nom.stock_offres_str )
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 83, in recuperation_tab
-    table_apres_requete = envoie_requete_avec_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 22, in envoie_requete_avec_retour
-    curseur.execute(requete)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    tab_stock_offres : list = req.recuperation_tab( nom.stock_offres_str )
-    tab_stock_offres : list = req.recuperation_tab( nom.stock_offres_str )
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 83, in recuperation_tab
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 83, in recuperation_tab
-    table_apres_requete = envoie_requete_avec_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 22, in envoie_requete_avec_retour
-    table_apres_requete = envoie_requete_avec_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 22, in envoie_requete_avec_retour
-    curseur.execute(requete)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    curseur.execute(requete)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    tab_stock_offres : list = req.recuperation_tab( nom.stock_offres_str )
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 83, in recuperation_tab
-    table_apres_requete = envoie_requete_avec_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 22, in envoie_requete_avec_retour
-    curseur.execute(requete)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    table_apres_requete = envoie_requete_avec_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 22, in envoie_requete_avec_retour
-    curseur.execute(requete)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    tab_stock_offres : list = req.recuperation_tab( nom.stock_offres_str )
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 83, in recuperation_tab
-    table_apres_requete = envoie_requete_avec_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 22, in envoie_requete_avec_retour
-    curseur.execute(requete)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 267, in _send_cmd
-    return self._socket.recv()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 243, in recv_plain
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 267, in _send_cmd
-    return self._socket.recv()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 243, in recv_plain
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 267, in _send_cmd
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 267, in _send_cmd
-    return self._socket.recv()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 243, in recv_plain
-    return self._socket.recv()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 243, in recv_plain
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 267, in _send_cmd
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 267, in _send_cmd
-    return self._socket.recv()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 243, in recv_plain
-    return self._socket.recv()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 243, in recv_plain
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 267, in _send_cmd
-    return self._socket.recv()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 243, in recv_plain
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 267, in _send_cmd
-    return self._socket.recv()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 243, in recv_plain
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 267, in _send_cmd
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 267, in _send_cmd
-    return self._socket.recv()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 243, in recv_plain
-    return self._socket.recv()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 243, in recv_plain
-    raise errors.InterfaceError(errno=2013)
-mysql.connector.errors.InterfaceError: 2013: Lost connection to MySQL server during query
-    raise errors.InterfaceError(errno=2013)
-mysql.connector.errors.InterfaceError: 2013: Lost connection to MySQL server during query
-    raise errors.InterfaceError(errno=2013)
-mysql.connector.errors.InterfaceError: 2013: Lost connection to MySQL server during query
-    raise errors.InterfaceError(errno=2013)
-    raise errors.InterfaceError(errno=2013)
-mysql.connector.errors.InterfaceError: 2013: Lost connection to MySQL server during query
-mysql.connector.errors.InterfaceError: 2013: Lost connection to MySQL server during query
-    raise errors.InterfaceError(errno=2013)
-mysql.connector.errors.InterfaceError: 2013: Lost connection to MySQL server during query
-    raise errors.InterfaceError(errno=2013)
-mysql.connector.errors.InterfaceError: 2013: Lost connection to MySQL server during query
-    raise errors.InterfaceError(errno=2013)
-mysql.connector.errors.InterfaceError: 2013: Lost connection to MySQL server during query
-    raise errors.InterfaceError(errno=2013)
-mysql.connector.errors.InterfaceError: 2013: Lost connection to MySQL server during query
-    raise errors.InterfaceError(errno=2013)
-mysql.connector.errors.InterfaceError: 2013: Lost connection to MySQL server during query
 /bin/sh: 1: root: not found
 /bin/sh: 1: root: not found
 /bin/sh: 1: root: not found
@@ -245,1099 +25,1154 @@ mysql.connector.errors.InterfaceError: 2013: Lost connection to MySQL server dur
 /bin/sh: 1: root: not found
 /bin/sh: 1: root: not found
 /bin/sh: 1: root: not found
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 509, in open_connection
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 509, in open_connection
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 509, in open_connection
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 509, in open_connection
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 509, in open_connection
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 509, in open_connection
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 509, in open_connection
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 509, in open_connection
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 509, in open_connection
-    self.sock.connect(sockaddr)
-ConnectionRefusedError: [Errno 111] Connection refused
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-    self.sock.connect(sockaddr)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-ConnectionRefusedError: [Errno 111] Connection refused
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    self.sock.connect(sockaddr)
-ConnectionRefusedError: [Errno 111] Connection refused
-    self.sock.connect(sockaddr)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-ConnectionRefusedError: [Errno 111] Connection refused
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    self.sock.connect(sockaddr)
-ConnectionRefusedError: [Errno 111] Connection refused
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    self.sock.connect(sockaddr)
-ConnectionRefusedError: [Errno 111] Connection refused
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    self.sock.connect(sockaddr)
-ConnectionRefusedError: [Errno 111] Connection refused
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    self.sock.connect(sockaddr)
-ConnectionRefusedError: [Errno 111] Connection refused
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    self.sock.connect(sockaddr)
-ConnectionRefusedError: [Errno 111] Connection refused
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 2, in <module>
-    import traitement_tarifs_flux as trt
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import traitement_tarifs_flux as trt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 40, in <module>
-    import peuplement_de_la_base as pb
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 7, in <module>
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 7, in <module>
-    import peuplement_de_la_base as pb
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 7, in <module>
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 7, in <module>
-    import peuplement_de_la_base as pb
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 7, in <module>
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 7, in <module>
-    import peuplement_de_la_base as pb
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 7, in <module>
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 7, in <module>
-    import peuplement_de_la_base as pb
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 7, in <module>
-    import requetes_blq_test as req
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 16, in <module>
-    import requetes_blq_test as req
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 16, in <module>
-    import requetes_blq_test as req
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 16, in <module>
-    import requetes_blq_test as req
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 16, in <module>
-    connection_base_bd_blq : mysql.connector.connection.MySQLConnection = mysql.connector.connect(host = machine, user = utilisateur, password = password_ssh, database = base_donnee)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/__init__.py", line 179, in connect
-    connection_base_bd_blq : mysql.connector.connection.MySQLConnection = mysql.connector.connect(host = machine, user = utilisateur, password = password_ssh, database = base_donnee)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/__init__.py", line 179, in connect
-    connection_base_bd_blq : mysql.connector.connection.MySQLConnection = mysql.connector.connect(host = machine, user = utilisateur, password = password_ssh, database = base_donnee)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/__init__.py", line 179, in connect
-    connection_base_bd_blq : mysql.connector.connection.MySQLConnection = mysql.connector.connect(host = machine, user = utilisateur, password = password_ssh, database = base_donnee)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/__init__.py", line 179, in connect
-    import requetes_blq_test as req
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 16, in <module>
-    connection_base_bd_blq : mysql.connector.connection.MySQLConnection = mysql.connector.connect(host = machine, user = utilisateur, password = password_ssh, database = base_donnee)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/__init__.py", line 179, in connect
-    import requetes_blq_test as req
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 16, in <module>
-    connection_base_bd_blq : mysql.connector.connection.MySQLConnection = mysql.connector.connect(host = machine, user = utilisateur, password = password_ssh, database = base_donnee)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/__init__.py", line 179, in connect
-    import requetes_blq_test as req
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 16, in <module>
-    connection_base_bd_blq : mysql.connector.connection.MySQLConnection = mysql.connector.connect(host = machine, user = utilisateur, password = password_ssh, database = base_donnee)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/__init__.py", line 179, in connect
-    import requetes_blq_test as req
-    import requetes_blq_test as req
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 16, in <module>
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 16, in <module>
-    connection_base_bd_blq : mysql.connector.connection.MySQLConnection = mysql.connector.connect(host = machine, user = utilisateur, password = password_ssh, database = base_donnee)
-    connection_base_bd_blq : mysql.connector.connection.MySQLConnection = mysql.connector.connect(host = machine, user = utilisateur, password = password_ssh, database = base_donnee)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/__init__.py", line 179, in connect
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/__init__.py", line 179, in connect
-    return MySQLConnection(*args, **kwargs)
-    return MySQLConnection(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 95, in __init__
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 95, in __init__
-    return MySQLConnection(*args, **kwargs)
-    return MySQLConnection(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 95, in __init__
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 95, in __init__
-    return MySQLConnection(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 95, in __init__
-    return MySQLConnection(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 95, in __init__
-    self.connect(**kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 716, in connect
-    self.connect(**kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 716, in connect
-    return MySQLConnection(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 95, in __init__
-    self.connect(**kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 716, in connect
-    self.connect(**kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 716, in connect
-    self.connect(**kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 716, in connect
-    return MySQLConnection(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 95, in __init__
-    self.connect(**kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 716, in connect
-    self.connect(**kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 716, in connect
-    self.connect(**kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 716, in connect
-    return MySQLConnection(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 95, in __init__
-    self.connect(**kwargs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 716, in connect
-    self._open_connection()
-    self._open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 206, in _open_connection
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 206, in _open_connection
-    self._socket.open_connection()
-    self._socket.open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 511, in open_connection
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 511, in open_connection
-    raise errors.InterfaceError(
-    raise errors.InterfaceError(
-mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
-mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
-    self._open_connection()
-    self._open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 206, in _open_connection
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 206, in _open_connection
-    self._socket.open_connection()
-    self._socket.open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 511, in open_connection
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 511, in open_connection
-    raise errors.InterfaceError(
-    raise errors.InterfaceError(
-mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
-mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
-    self._open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 206, in _open_connection
-    self._socket.open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 511, in open_connection
-    self._open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 206, in _open_connection
-    self._socket.open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 511, in open_connection
-    raise errors.InterfaceError(
-mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
-    raise errors.InterfaceError(
-mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
-    self._open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 206, in _open_connection
-    self._socket.open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 511, in open_connection
-    raise errors.InterfaceError(
-mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
-    self._open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 206, in _open_connection
-    self._socket.open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 511, in open_connection
-    raise errors.InterfaceError(
-mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
-    self._open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 206, in _open_connection
-    self._socket.open_connection()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 511, in open_connection
-    raise errors.InterfaceError(
-mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
-Hello Python
-Hello lancement_traitement_tarifs
-Fin initialisation
-  fct_flux_tree  
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-flux : 
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-taille : 1
-taille : 12642
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : None
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 20, in <module>
-    tt.traitement_tarif()
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 59, in traitement_tarif
-    script_tarif = trt.fct_flux_tree_xml_1(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0] + ".csv", profil[0], profil[7])
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 127, in fct_flux_tree_xml_1
-    pb.insertion_tarif(type_flux, nom_tarif_profil,vin,millesime,formatB,prix,quantite,conditionnement,commentaires, id_negociant)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 298, in insertion_tarif
-    req.envoie_requete_tuple_sans_retour(requete, tuple_valeurs)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 69, in envoie_requete_tuple_sans_retour
-    curseur.execute(requete, tab_valeurs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 395, in _handle_result
-    raise errors.get_exception(packet)
-mysql.connector.errors.IntegrityError: 1048 (23000): Column 'stock_id' cannot be null
-Hello Python
-Hello lancement_traitement_tarifs
-Fin initialisation
-  fct_flux_tree  
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-flux : 
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-taille : 1
-taille : 12642
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 20, in <module>
-    tt.traitement_tarif()
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 59, in traitement_tarif
-    script_tarif = trt.fct_flux_tree_xml_1(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0] + ".csv", profil[0], profil[7])
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 127, in fct_flux_tree_xml_1
-    pb.insertion_tarif(type_flux, nom_tarif_profil,vin,millesime,formatB,prix,quantite,conditionnement,commentaires, id_negociant)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 271, in insertion_tarif
-    req.reinitialisation_global(tab_table)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 180, in reinitialisation_global
-    envoie_requete_sans_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 41, in envoie_requete_sans_retour
-    curseur.execute(requete)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 395, in _handle_result
-    raise errors.get_exception(packet)
-mysql.connector.errors.IntegrityError: 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`bd_blq`.`tarif`, CONSTRAINT `tarif_FK` FOREIGN KEY (`stock_id`) REFERENCES `stock_offres` (`id`))
-Hello Python
-Hello lancement_traitement_tarifs
-Fin initialisation
-  fct_flux_tree  
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-flux : 
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-taille : 1
-taille : 12642
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 3
-vin : CHATEAU MARGAUX
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 20, in <module>
-    tt.traitement_tarif()
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 59, in traitement_tarif
-    script_tarif = trt.fct_flux_tree_xml_1(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0] + ".csv", profil[0], profil[7])
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 127, in fct_flux_tree_xml_1
-    pb.insertion_tarif(type_flux, nom_tarif_profil,vin,millesime,formatB,prix,quantite,conditionnement,commentaires, id_negociant)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 271, in insertion_tarif
-    req.reinitialisation_global(tab_table)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 180, in reinitialisation_global
-    envoie_requete_sans_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 41, in envoie_requete_sans_retour
-    curseur.execute(requete)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 395, in _handle_result
-    raise errors.get_exception(packet)
-mysql.connector.errors.IntegrityError: 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`bd_blq`.`tarif`, CONSTRAINT `tarif_FK` FOREIGN KEY (`stock_id`) REFERENCES `stock_offres` (`id`))
-Hello Python
-Hello lancement_traitement_tarifs
-Fin initialisation
-  fct_flux_tree  
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-flux : 
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-taille : 1
-taille : 12642
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 7
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 20, in <module>
-    tt.traitement_tarif()
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 59, in traitement_tarif
-    script_tarif = trt.fct_flux_tree_xml_1(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0] + ".csv", profil[0], profil[7])
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 127, in fct_flux_tree_xml_1
-    pb.insertion_tarif(type_flux, nom_tarif_profil,vin,millesime,formatB,prix,quantite,conditionnement,commentaires, id_negociant)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 298, in insertion_tarif
-    req.envoie_requete_tuple_sans_retour(requete, tuple_valeurs)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 69, in envoie_requete_tuple_sans_retour
-    curseur.execute(requete, tab_valeurs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 395, in _handle_result
-    raise errors.get_exception(packet)
-mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry '7-1' for key 'tarif_UN'
-Hello Python
-Hello lancement_traitement_tarifs
-Fin initialisation
-  fct_flux_tree  
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-flux : 
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-taille : 1
-taille : 12642
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 2
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 20, in <module>
-    tt.traitement_tarif()
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 59, in traitement_tarif
-    script_tarif = trt.fct_flux_tree_xml_1(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0] + ".csv", profil[0], profil[7])
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 127, in fct_flux_tree_xml_1
-    pb.insertion_tarif(type_flux, nom_tarif_profil,vin,millesime,formatB,prix,quantite,conditionnement,commentaires, id_negociant)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 298, in insertion_tarif
-    req.envoie_requete_tuple_sans_retour(requete, tuple_valeurs)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 69, in envoie_requete_tuple_sans_retour
-    curseur.execute(requete, tab_valeurs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 395, in _handle_result
-    raise errors.get_exception(packet)
-mysql.connector.errors.IntegrityError: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`bd_blq`.`tarif`, CONSTRAINT `tarif_FK` FOREIGN KEY (`stock_id`) REFERENCES `stock_offres` (`id`))
-Hello Python
-Hello lancement_traitement_tarifs
-Fin initialisation
-  fct_flux_tree  
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-flux : 
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-taille : 1
-taille : 12642
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 4
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 3
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 20, in <module>
-    tt.traitement_tarif()
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 59, in traitement_tarif
-    script_tarif = trt.fct_flux_tree_xml_1(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0] + ".csv", profil[0], profil[7])
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 127, in fct_flux_tree_xml_1
-    pb.insertion_tarif(type_flux, nom_tarif_profil,vin,millesime,formatB,prix,quantite,conditionnement,commentaires, id_negociant)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 298, in insertion_tarif
-    req.envoie_requete_tuple_sans_retour(requete, tuple_valeurs)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 69, in envoie_requete_tuple_sans_retour
-    curseur.execute(requete, tab_valeurs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 395, in _handle_result
-    raise errors.get_exception(packet)
-mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry '3-1' for key 'tarif_UN'
-Hello Python
-Hello lancement_traitement_tarifs
-Fin initialisation
-  fct_flux_tree  
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-flux : 
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-taille : 1
-taille : 12642
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 5
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 2
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 2
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 20, in <module>
-    tt.traitement_tarif()
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 59, in traitement_tarif
-    script_tarif = trt.fct_flux_tree_xml_1(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0] + ".csv", profil[0], profil[7])
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 127, in fct_flux_tree_xml_1
-    pb.insertion_tarif(type_flux, nom_tarif_profil,vin,millesime,formatB,prix,quantite,conditionnement,commentaires, id_negociant)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 298, in insertion_tarif
-    req.envoie_requete_tuple_sans_retour(requete, tuple_valeurs)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 69, in envoie_requete_tuple_sans_retour
-    curseur.execute(requete, tab_valeurs)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 395, in _handle_result
-    raise errors.get_exception(packet)
-mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry '2-1' for key 'tarif_UN'
 /bin/sh: 1: root: not found
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 7, in <module>
-    import traitement_tarifs as tt
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 25, in <module>
-    tab_stock_offres : list = req.recuperation_tab( nom.stock_offres_str )
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq.py", line 95, in recuperation_tab
-    table_apres_requete = envoie_requete_avec_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq.py", line 19, in envoie_requete_avec_retour
-    curseur.execute(requete)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/cursor.py", line 551, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 395, in _handle_result
-    raise errors.get_exception(packet)
-mysql.connector.errors.OperationalError: 1053 (08S01): Server shutdown in progress
-Hello Python
-Hello lancement_traitement_tarifs
-Fin initialisation
-  fct_flux_tree  
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-flux : 
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-taille : 1
-taille : 12642
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 7
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 3
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 2
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Traceback (most recent call last):
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/lancement_traitement_tarifs.py", line 20, in <module>
-    tt.traitement_tarif()
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs.py", line 59, in traitement_tarif
-    script_tarif = trt.fct_flux_tree_xml_1(profil[2], chemin_dossier_tarifs + dossier_sortie + "/sortie_" + profil[0] + ".csv", profil[0], profil[7])
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/traitement_tarifs_flux.py", line 127, in fct_flux_tree_xml_1
-    pb.insertion_tarif(type_flux, nom_tarif_profil,vin,millesime,formatB,prix,quantite,conditionnement,commentaires, id_negociant)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/peuplement_de_la_base.py", line 271, in insertion_tarif
-    req.reinitialisation_global(tab_table)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 184, in reinitialisation_global
-    envoie_requete_sans_retour(requete)
-  File "/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/requetes_blq_test.py", line 45, in envoie_requete_sans_retour
-    connection_base_bd_blq.commit()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 852, in commit
-    self._execute_query("COMMIT")
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 871, in _execute_query
-    self.cmd_query(query)
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 490, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/connection.py", line 267, in _send_cmd
-    return self._socket.recv()
-  File "/usr/local/lib/python3.10/site-packages/mysql/connector/network.py", line 243, in recv_plain
-    raise errors.InterfaceError(errno=2013)
-mysql.connector.errors.InterfaceError: 2013: Lost connection to MySQL server during query
 /bin/sh: 1: root: not found
-Hello Python
-Hello lancement_traitement_tarifs
-Fin initialisation
-  fct_flux_tree  
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-flux : 
-http://admin.millesima.fr/media/productsfeedpick/fr.xml
-taille : 1
-taille : 12699
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU MARGAUX
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-SEGLA
-Créer !!
-max_id_stock : 1
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 209- format_id : 6- conditionnement_id : 37
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 209- format_id : 9- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 211- format_id : 7- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 211- format_id : 9- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 212- format_id : 6- conditionnement_id : 37
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 212- format_id : 7- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 215- format_id : 2- conditionnement_id : 17
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 215- format_id : 6- conditionnement_id : 37
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 215- format_id : 7- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 216- format_id : 3- conditionnement_id : 63
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 216- format_id : 2- conditionnement_id : 17
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 216- format_id : 6- conditionnement_id : 37
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 216- format_id : 8- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 216- format_id : 9- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 216- format_id : 1- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 216- format_id : 14- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 216- format_id : 12- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 217- format_id : 3- conditionnement_id : 63
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 217- format_id : 2- conditionnement_id : 17
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 217- format_id : 6- conditionnement_id : 37
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 217- format_id : 7- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 217- format_id : 9- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 219- format_id : 3- conditionnement_id : 63
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 219- format_id : 2- conditionnement_id : 17
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 219- format_id : 6- conditionnement_id : 37
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 219- format_id : 7- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 219- format_id : 9- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 220- format_id : 2- conditionnement_id : 17
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 220- format_id : 6- conditionnement_id : 37
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 220- format_id : 7- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 220- format_id : 8- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 220- format_id : 9- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 221- format_id : 2- conditionnement_id : 17
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 221- format_id : 6- conditionnement_id : 37
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 221- format_id : 7- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 221- format_id : 9- conditionnement_id : 2
-vin : CHATEAU RAUZAN-GASSIES
-vin_id : -1- millesime_id : 221- format_id : 11- conditionnement_id : 2
-vin : CHATEAU LASCOMBES
-Créer !!
-max_id_stock : 1
-vin : CHATEAU LASCOMBES
-Créer !!
-max_id_stock : 1
-vin : CHATEAU LASCOMBES
-Créer !!
-max_id_stock : 1
-vin : CHATEAU LASCOMBES
-Créer !!
-max_id_stock : 1
-vin : CHATEAU LASCOMBES
-Créer !!
-max_id_stock : 1
-vin : CHATEAU LASCOMBES
-Créer !!
-max_id_stock : 1
-vin : CHATEAU LASCOMBES
-Créer !!
-max_id_stock : 1
-vin : CHATEAU LASCOMBES
-Créer !!
-max_id_stock : 1
-vin : CHATEAU LASCOMBES
-Créer !!
-max_id_stock : 1
-vin : CHATEAU LASCOMBES
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
+/bin/sh: 1: root: not found
 /bin/sh: 1: root: not found
 /bin/sh: 1: root: not found
 /bin/sh: 1: root: not found

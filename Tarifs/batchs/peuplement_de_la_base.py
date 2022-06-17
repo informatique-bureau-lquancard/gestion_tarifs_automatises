@@ -13,8 +13,16 @@ import sys
 sys.path.append("/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs")
 import nomenclature_bd_blq as nom
 
+sys.path.append("/var/www/html/php/fonctions_tarifs/Fonction_tarifs.py")
+import Fonction_tarifs as ft
+
+sys.path.append("/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/fonctions_profils/model")
+import Offre
+
 #Pour rajouter la bibliothèque numpy : python3 -m pip install numpy
 import numpy as np
+
+from unidecode import unidecode
 
 tab_profils : list = req.recuperation_profils_negociants()
 tab_stock_offres : list = req.recuperation_tab( nom.stock_offres_str )
@@ -34,6 +42,86 @@ tab_conditionnements_inverse : list = list(map(list, np.transpose(tab_conditionn
 
 # A voir si c'est utile de rajouter stock, partenaire et d'autres tables
 tab_inverse_stock_offres : list = [tab_vins_inverse, tab_millesimes_inverse, tab_formats_bouteille_inverse, tab_conditionnements_inverse]
+
+def test1():
+    
+    tab_vins_tansformee : list = [];
+
+    # Possible conflit avec les traitements qui utilise ce fichier    
+    if( len(tab_vins_inverse) == 0):
+        return []
+
+    for vin in tab_vins_inverse[1]:
+
+        # Enlève les caractères spéciaux
+
+        vin : str = unidecode( vin )
+
+        # print( "vin" )
+        # print( vin )
+
+        tab_caracteres_a_supprimer = ["'", "-", "_", "CHATEAU"]
+
+        vin = ft.supprimeChaineCaracteresAvecEspace( vin, tab_caracteres_a_supprimer )
+
+        # print( "vin" )
+        # print( vin )
+
+        tab_vins_tansformee.append( vin )
+
+    return tab_vins_tansformee
+
+# Conflit avec lancement_initialisation_bd_blq.py Commenter/Decommenter
+# tab_vins_tansformee : list = test1();
+
+def test2(chaine : str):
+
+    list_chaine_split = chaine.split()
+
+    print( "list_chaine_split" )
+    print( list_chaine_split[0] )
+
+    i : int = 1
+
+    stock_vin : list = []
+
+    for element in tab_vins_tansformee :
+
+        liste_element : list = element.split()
+
+        # print( "liste_element" )
+        # print( liste_element )
+
+        comparaison : list = list( set( list_chaine_split ) & set( liste_element ) )
+
+        # print( "liste_element : " + liste_element)
+
+        # print( "comparaison" )
+        # print( comparaison )
+
+        if( comparaison == liste_element ):
+            print(element)
+            print("Passe l'indice : " + str(i))
+
+            return i
+
+        stock_vin.append( [ element, i , len( comparaison )] )
+
+        i = i + 1
+
+    if( len( comparaison ) == 0 ):
+
+        return -1
+
+    stock_vin_inverse = list(map(list, np.transpose(stock_vin)))
+
+    max = max( stock_vin_inverse[2] )
+    id_max : int = stock_vin_inverse[2].index( max )
+
+    return id_max
+
+# tab : list = [ tab_vins_inverse[ 0 ], a() ]
+# tab_inverse : list = list( map( list, np.transpose(tab) ) )
 
 def recup_val_tab_inv(indice_tab_inverse : int, id_champ : int, mot_clef):
 
@@ -189,33 +277,38 @@ def recup_max (nomColonne : str, nomTable : str):
 
     return (req.envoie_requete_avec_retour(requete)[0][0])
 
-def insertion_tarif(type_flux, nom_tarif_profil, vin : str, millesime : str, formatB : str , prix : float, quantite : int, conditionnement : str,commentaires, partenaire_vendeur_id : int):
+def insertion_tarif(type_tarif_id, nom_tarif_profil, offre : Offre):
     
     # Le premier élément sera : "ERREURS : "
     erreurs.append(erreurs_str)
 
     # vin_id
-    print("vin : " + vin)
+    print("vin : " + offre.vin)
     # vin_id : int = recup_val_tab_inv(0, 1, vin)
-    vin_id : int = req.recuperation_un_id(nom.vin_str, "nom", vin)
+    vin_id : int = req.recuperation_un_id(nom.vin_str, "nom", offre.vin)
     # print("Retour id vin : " + str(vin_id))
+
+    id : int = test2( offre.vin )
+
+    print( "id" )
+    print( str(id) )
 
     # millesime_id
     # print("millesime : " + str(millesime))
     # millesime_id : int = recup_val_tab_inv(1, 1, millesime)
-    millesime_id : int = req.recuperation_un_id(nom.millesime_str, "millesime", str(millesime))
+    millesime_id : int = req.recuperation_un_id(nom.millesime_str, "millesime", str(offre.millesime))
     # print("Retour id millesime : " + str(millesime_id))
 
     # format_id
     # print("formatB : " + str(formatB))
     # format_id : int = recup_val_tab_inv(2, 1, formatB)
-    format_id : int = req.recuperation_un_id(nom.format_bouteille_str, "format_bouteille", formatB)
+    format_id : int = req.recuperation_un_id(nom.format_bouteille_str, "format_bouteille", offre.formatB)
     # print("Retour id format : " + str(format_id))
 
     # conditionnement_id
     # print("conditionnement : " + str(conditionnement))
     # conditionnement_id : int = recup_val_tab_inv(3, 1, conditionnement)
-    conditionnement_id : int = req.recuperation_un_id(nom.conditionnement_str, "conditionnement", conditionnement)
+    conditionnement_id : int = req.recuperation_un_id(nom.conditionnement_str, "conditionnement", offre.conditionnement)
     # print("Retour id conditionnement : " + str(conditionnement_id))
 
     # Test pour insertion dans stock_offres
@@ -266,9 +359,9 @@ def insertion_tarif(type_flux, nom_tarif_profil, vin : str, millesime : str, for
     #     return
 
     # Réinitialisation des tables des offres avant création
-    tab_table : list = ["tarif", "stock_offres"]
+    # tab_table : list = ["tarif", "stock_offres"]
 
-    req.reinitialisation_global(tab_table)
+    # req.reinitialisation_global(tab_table)
 
     print("Créer !!")
 
@@ -281,7 +374,7 @@ def insertion_tarif(type_flux, nom_tarif_profil, vin : str, millesime : str, for
     # print(str(partenaire_vendeur_id)  + " : " + str(vin_id)  + " : " + str(millesime_id)  + " : " + str(format_id)  + " : " + str(conditionnement_id)  + " : " + str(commentaires))
 
     #requete insert stock_offres
-    tuple_valeurs : tuple = (partenaire_vendeur_id, vin_id, millesime_id, format_id, conditionnement_id, commentaires)
+    tuple_valeurs : tuple = (offre.partenaire_vendeur_id, vin_id, millesime_id, format_id, conditionnement_id, commentaires)
     requete : str = f"""INSERT INTO """ + nom.stock_offres_str + """ (partenaire_vendeur_id, vin_id, millesime_id, format_id, conditionnement_id, commentaires) VALUES (%s, %s, %s, %s, %s, %s);"""
     req.envoie_requete_tuple_sans_retour(requete, tuple_valeurs)
 
@@ -293,7 +386,7 @@ def insertion_tarif(type_flux, nom_tarif_profil, vin : str, millesime : str, for
     print("max_id_stock : " + str(max_id_stock))
 
     # requete insérer tarif
-    tuple_valeurs : tuple = (max_id_stock, type_tarif_id, int(quantite), float(prix))
+    tuple_valeurs : tuple = (max_id_stock, type_tarif_id, int(offre.quantite), float(offre.prix))
     requete = f"""INSERT INTO tarif(stock_id, type_tarif_id, quantite, prix) VALUES (%s, %s, %s, %s)"""
     req.envoie_requete_tuple_sans_retour(requete, tuple_valeurs)
 

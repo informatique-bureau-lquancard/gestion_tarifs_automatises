@@ -59,6 +59,7 @@ def envoie_requete_tuple_avec_retour(requete : str, tab_valeurs : tuple):
     # print(sortie_requete)
 
     if(len(sortie_requete) > 0):
+        print("sortie_requete : " + str(sortie_requete))
         return sortie_requete
 
     return [[-1]]
@@ -75,6 +76,31 @@ def envoie_requete_tuple_sans_retour(requete : str, tab_valeurs : tuple):
     curseur.close()
 
 #####--------------------------REQUETES DE RECUPERATION--------------------------#####
+
+def compte_nombre_doublon( liste_designation : list, tuple_valeurs : tuple ):
+
+    liste_designation : str
+
+    nom_table : str = liste_designation[0]
+    designations_colonne : list = liste_designation[1:]
+
+    requete : str = f"""SELECT count(*) FROM """ + nom_table + """ WHERE """ 
+
+    partie_requete : str = ""
+    indice : int = 0
+
+    for designation in designations_colonne :
+        
+        if( indice != 0 ):
+            partie_requete += """ AND """
+
+        partie_requete += designation + """ = %s"""
+
+        indice = indice + 1
+
+    requete = requete + partie_requete + """;"""
+
+    return envoie_requete_tuple_avec_retour(requete, tuple_valeurs)[0][0]
 
 def recuperation_tab(nom_table: str): 
 
@@ -105,6 +131,8 @@ def recuperation_profils_negociants():
 
     return sortie_requete
 
+# A changer !!!
+# méthode qui sert qu'à un seul endroit, méthode au dessous qui fait presque pareil, nom a changer !!! 
 def recuperation_indice_doublon(nom_table :str, nom_colonne : str, valeur_a_testee : str):
 
     # print("nom_table : -"+ nom_table+"-")
@@ -114,11 +142,13 @@ def recuperation_indice_doublon(nom_table :str, nom_colonne : str, valeur_a_test
     valeur_a_testee = valeur_a_testee.replace("'","")
 
     if(valeur_a_testee.isdigit()):
-        requete : str = f"""SELECT id FROM """ + nom_table + """ WHERE """ + nom_colonne + """ = """ + valeur_a_testee + """ HAVING (COUNT(*) > 1);"""
+        requete : str = f"""SELECT id FROM """ + nom_table + """ WHERE """ + nom_colonne + """ = """ + valeur_a_testee + """ HAVING (COUNT(*) > 0);"""
     else:
-        requete : str = f"""SELECT id FROM """ + nom_table + """ WHERE """ + nom_colonne + """ = '""" + valeur_a_testee + """' HAVING (COUNT(*) > 1);"""
+        requete : str = f"""SELECT id FROM """ + nom_table + """ WHERE """ + nom_colonne + """ = '""" + valeur_a_testee + """' HAVING (COUNT(*) > 0);"""  
 
     return envoie_requete_avec_retour(requete)[0][0]
+
+
 
 def recuperation_un_element(nom_table :str, nom_colonne : str, valeur_a_testee : str, valeur_a_recuperee : str):
 
@@ -150,7 +180,15 @@ def recuperation_un_id(nom_table :str, nom_colonne : str, valeur_a_testee : str)
 
     return envoie_requete_avec_retour(requete)[0][0]
 
+def recuperation_elements_proche(nom_table :str, nom_colonne : str, valeur_a_testee : str):
 
+    valeur_a_testee = valeur_a_testee.replace("'","")
+
+    requete : str = f"""SELECT id FROM """ + nom_table + """ WHERE """ + nom_colonne + """ = '%""" + valeur_a_testee + """%';"""
+
+    resultat : list = list( envoie_requete_avec_retour(requete) )
+
+    return resultat
 
 #####--------------------------REQUETES DE SUPPRESSION--------------------------#####
 
@@ -160,6 +198,24 @@ def supprimer_tout(tab_table : list):
         requete = f"""DELETE FROM {table};"""
 
         envoie_requete_sans_retour(requete)
+
+def supprimer_tout_par_partenaire(idNegociant : int):
+    
+    requete = f"""DELETE FROM stock_offres WHERE partenaire_vendeur_id = {idNegociant};"""
+
+    envoie_requete_sans_retour(requete)
+
+def supprimer_tout_par_id_stock_offres(idNegociant : int):
+    
+    requete = f"""DELETE FROM tarif 
+                    WHERE stock_id IN (
+	                    SELECT id FROM stock_offres WHERE partenaire_vendeur_id = {idNegociant}
+                    );
+    """
+
+    # print("requete : " + requete)
+
+    envoie_requete_sans_retour(requete)
 
 #####--------------------------REQUETES INITIALISATION--------------------------#####
 

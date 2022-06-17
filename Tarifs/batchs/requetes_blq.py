@@ -100,10 +100,7 @@ def recuperation_tab(nom_table: str):
     return table_apres_requete;
 
 def recuperation_profils_negociants():
-    requete : str = f"""SELECT pr.profil, pr.chemin, pr.flux, tp.type_tarif, tp.description, f.nom, f.type, p.id FROM `profil` as pr
-                        JOIN `type_tarif` as tp ON pr.type_tarif_id = tp.id
-                        JOIN `flux` as f ON pr.flux_id = f.id
-                        JOIN `partenaire` as p ON pr.partenaire_id = p.id;"""
+    requete : str = f"""SELECT * FROM profils;"""
 
     curseur = connection_base_bd_blq.cursor()
 

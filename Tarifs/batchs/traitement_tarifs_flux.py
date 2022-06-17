@@ -41,6 +41,9 @@ import peuplement_de_la_base as pb
 
 import requests
 
+sys.path.append("/var/www/html/projets/bureau-laurent-quancard/gestion-des-offres/gestion_tarifs_automatises/Tarifs/batchs/fonctions_profils")
+import general_xml as gx
+
 tab_colonne = ['vin', 'millesime', 'formatB', 'prix', 'quantite', 'conditionnement', 'commentaires   ']
 
 ##########
@@ -49,172 +52,12 @@ tab_colonne = ['vin', 'millesime', 'formatB', 'prix', 'quantite', 'conditionneme
 # MILIMA
 def fct_flux_tree_xml_1(flux, chemin_fichier_sortie, nom_tarif_profil, id_negociant):
 
-    print ("  fct_flux_tree  ")
-
-    print(flux)
-
-    # ??? normalement il y a déjà flux en haut, supprimer et remplacer par flux ? voir par rapport à la base
-    type_flux = "flux_xml"
-
-    print("flux : ")
-    print(flux)
-
-    tree = etree.parse(flux)
-
-    Vin = etree.Element("Produit")
-
-    with open(chemin_fichier_sortie,'w',newline='', encoding='utf-8') as monFichierSortie:
-        writer = csv.writer(monFichierSortie, delimiter=';', quoting=csv.QUOTE_NONE, escapechar=';', quotechar='')
-
-        taille : int = len( tree.xpath("/XMLFILE") )
-
-        print("taille : " + str(taille) )
-
-        taille : int = len( tree.xpath("/XMLFILE/Produit") )
-
-        print("taille : " + str(taille) )
-
-        for Vin in tree.xpath("/XMLFILE/Produit") :
-
-            # couleur
-            couleur : str = (Vin[4].text).upper()
-
-            # vin, enlève la date de vin
-            vin : str = unidecode((Vin[0].text)[:-5])
-
-            vin = ft.formaterVin("", vin, couleur)
-
-            # millesime
-            millesime : str = ft.formaterAnnee( Vin[1].text )
-
-            # foramtB
-            formatB : str = ft.formaterFormatBouteilleBis( Vin[9].text )
-
-            # prix
-            qCaisse : str = Vin[18].text
-            iNb : int = qCaisse.find("*")
-            qCaisse = qCaisse[:int(iNb)].replace(" ","")
-
-            fprix : str = Vin[7].text
-            fprix = float(fprix) / int(qCaisse)
-            prix : str = str(fprix)
-            prix = prix.replace(",",".")
-
-            prix_float : float = round(float(prix), 2)
-            prix = str(prix_float)
-
-            # quantite
-            quantite : str = Vin[17].text
-
-            # conditionnement
-
-            conditionnement : str = ft.formaterConditionnement(formatB, int(quantite), Vin[10].text, vin)
-            conditionnement : str = conditionnement.replace("CCO", 'CC')
-
-            # Mise à jour qui ont rendu inutilisable les conditionnements
-            # conditionnement = ft.formatterConditionnement(formatB, quantite, conditionnement, vin)
-
-            # commentaires
-            commentaires : str = ""
-
-            if( (conditionnement not in ft.tab_conditionnement) and ( conditionnement == "CBO24DE" ) ):
-                commentaires = "VERIF CDT - "+conditionnement
-
-            # insertion des lignes dans le fichier
-            newRow=[vin,millesime,formatB,prix,quantite,conditionnement,commentaires]
-
-            # insertion des lignes dans la base
-            pb.insertion_tarif(type_flux, nom_tarif_profil,vin,millesime,formatB,prix,quantite,conditionnement,commentaires, id_negociant)
-
-            writer.writerow(newRow)
-        return writer
+    return gx.general_xml( flux, chemin_fichier_sortie, nom_tarif_profil, id_negociant )
 
 # ANGWIN_HEBDO
 def fct_flux_tree_xml_2(flux, chemin_fichier_sortie, nom_tarif_profil, id_negociant):
 
-    print ("  fct_flux_tree  ")
-
-    print(flux)
-
-    feed = feedparser.parse(flux)
-
-    tree = etree.parse(flux)
-
-    # page = requests.get(flux).text.encode('utf-8')
-
-    # tree = etree.fromstring(page)
-    # treepath = tree.xpath('.//table[@class="W(100%)"]')
-
-    # xml = etree.tostring(tree)
-    # xml = etree.XML(xml)
-    
-    # Vin = etree.Element("item")
-
-    with open(chemin_fichier_sortie,'w',newline='', encoding='utf-8') as monFichierSortie:
-        writer = csv.writer(monFichierSortie, delimiter=';', quoting=csv.QUOTE_NONE, escapechar=';', quotechar='')
-
-        taille : int = len( treepath )
-
-        print("taille : " + str(taille) )
-
-        treepath = tree.xpath('.//table[@class="W(100%)"]/channel/item')
-        
-        taille : int = len( treepath )
-
-        print("taille : " + str(taille) )
-    
-        for entry in feed.entries:
-
-            item = entry.description
-
-            prix_ttc = entry.g_price.replace(' EUR','')
-            prix_ht = float(prix_ttc)/float(1.2)
-            prix = str(prix_ht).replace('.',',')
-
-            quantite = entry.g_sell_on_google_quantity
-            couleur = entry.g_color
-        
-            rec_millesime = re.findall('[0-9][0-9][0-9][0-9]',item)
-            millesime = rec_millesime[0] if rec_millesime else 'NV'
-            
-            vin = unidecode(item.split(millesime)[0]).replace(';','')
-            
-            rec_formatB = re.findall('[0-9]?[,]?[0-9][eE0-9][cC]?[lL]',item)
-
-            formatB_dict = ['Magnum','Double Magnum', 'Jeroboam', 'Imper']
-            formatB = ''
-
-            for f in formatB_dict :
-
-                if f not in item :
-                    break
-
-                iFormat = item.find(f)
-                formatB = item[int(iFormat):]
-
-            if rec_formatB and formatB == '':
-                formatB = rec_formatB[0]
-            elif 'Imperiale' in item :
-                formatB = 'IM'
-            elif formatB == '' :
-                formatB = 'BO'
-
-            formatB : str = ft.formaterFormatBouteille(formatB)
-
-            conditionnement : str = ft.conditionnementParDefaut(formatB,int(quantite))
-            commentaires : str = 'Verif CDT'
-
-            print(vin)
-            print(millesime)
-            print(formatB)
-            print(prix)
-            print(quantite)
-            print(conditionnement)
-            print(commentaires)
-                
-            newRow=[vin, millesime, formatB, prix, quantite, conditionnement, commentaires]
-            writer.writerow(newRow)
-        return writer
+    return gx.general_xml2( flux, chemin_fichier_sortie, nom_tarif_profil, id_negociant )
 
 #Initialisation et création du fichier de  xlsx
 def initialisation_google_sheet(tab_onglets_ok, flux, chemin_fichier_sortie):
